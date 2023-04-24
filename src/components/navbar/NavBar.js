@@ -1,15 +1,18 @@
 import './NavBar.css';
+import { NavLink, Link } from 'react-router-dom';
 
 
 const NavBar = () => {
     return (
         <nav>
+            <Link to='/'>
             <h1>Semillero Gorrión</h1>
+            </Link>
             <div>
-                <button>Vegetales</button>
-                <button>Hierbas</button>
-                <button>Flores</button>
-                <button>Tubérculos</button>
+                <NavLink to={`/category/vegetales`} className={({ isActive })=> isActive ? 'ActiveOption' : 'Option'}>Vegetales</NavLink>
+                <NavLink to={`/category/hierbas`} className={({ isActive })=> isActive ? 'ActiveOption' : 'Option'}>Hierbas</NavLink>
+                <NavLink to={`/category/flores`} className={({ isActive })=> isActive ? 'ActiveOption' : 'Option'}>Flores</NavLink>
+                <NavLink to={`/category/tuberculos`} className={({ isActive })=> isActive ? 'ActiveOption' : 'Option'}>Tubérculos</NavLink>
             </div>
         </nav>
     );

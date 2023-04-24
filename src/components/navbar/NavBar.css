@@ -11,7 +11,7 @@ h1 {
     font-size: 30px;
 }
 
-button {
+.navLink {
     border: none;
     background: none;
     color: #20FC8F;

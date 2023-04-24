@@ -1,0 +1,6 @@
+.DetailDisplay {
+    margin: 20px 30px;
+    color: #20FC8F;
+    display: flex;
+    flex-flow: column;
+}

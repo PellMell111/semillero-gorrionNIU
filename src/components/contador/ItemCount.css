@@ -1,0 +1,23 @@
+.Counter {
+    display: flex;
+    flex-flow: column;
+}
+
+.Controls {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.Button {
+    border: none;
+    font-family: inherit;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px 0 0 0;
+}
+
+.Number {
+    font-size: 20px;
+    color: #20FC8F;
+}

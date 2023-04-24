@@ -1,0 +1,32 @@
+.CardItem {
+    background-color: #3F5E5A;
+    width: 30%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.Header {
+    font-size: 20px;
+}
+
+.ItemImg {
+    width: 400px;
+    height: 600px;
+}
+
+.Info {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.Option {
+    border: none;
+    font-family: inherit;
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
