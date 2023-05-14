@@ -23,7 +23,7 @@ const products = [
         id: '3',
         name: 'Papa Yagana',
         price: 25000,
-        category: 'tubérculos',
+        category: 'tuberculos',
         img: 'https://images.pexels.com/photos/2286776/pexels-photo-2286776.jpeg?auto=compress&cs=tinysrgb&w=1600',
         stock: 40,
         alias: 'Papa Yagana-INIA',
