@@ -1,0 +1,12 @@
+.cart-container {
+    margin-right: 50px;
+}
+
+.cart {
+    height: 50px;
+}
+
+.cart-quantity {
+    font-size: 20px;
+    margin-left: 10px;
+}
